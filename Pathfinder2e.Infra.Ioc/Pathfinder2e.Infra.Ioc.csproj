@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Pathfider2e.Infra.Ioc</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Pathfinder2e.Application\Pathfinder2e.Application.csproj" />
+      <ProjectReference Include="..\Pathfinder2e.Domain\Pathfinder2e.Domain.csproj" />
+      <ProjectReference Include="..\Pathfinder2e.Infra.Data\Pathfinder2e.Infra.Data.csproj" />
+    </ItemGroup>
+
+</Project>
