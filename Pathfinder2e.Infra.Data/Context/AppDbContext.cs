@@ -38,5 +38,9 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<Ancestry>()
             .HasMany(a => a.AvailableFeats)
             .WithMany(f => f.AllowedAncestries);
+    
+        // Esta linha injeta as 4 configurações automaticamente no banco de dados
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly);
     }
+
 }
