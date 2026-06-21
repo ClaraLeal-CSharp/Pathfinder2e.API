@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Pathfinder2e.Domain.Entities;
 using Pathfinder2e.Domain.Interfaces;
-using Pathfinder2e.Infra.Data;
+using Pathfinder2e.Infra.Data.Context;
 
 namespace Pathfinder2e.Infra.Data.Repositories;
 

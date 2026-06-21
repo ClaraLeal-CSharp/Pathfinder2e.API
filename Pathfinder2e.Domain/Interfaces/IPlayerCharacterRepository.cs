@@ -1,7 +1,8 @@
 using Pathfinder2e.Domain.Entities;
+
 namespace Pathfinder2e.Domain.Interfaces;
 
-public interface IPlayerCaracterRepository
+public interface IPlayerCharacterRepository
 {
     Task<PlayerCharacter?> GetByIdAsync(int id);
     Task<IEnumerable<PlayerCharacter>> GetAllAsync();

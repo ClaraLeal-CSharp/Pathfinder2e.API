@@ -1,4 +1,4 @@
-namespace Pathfider2e.Infra.Data.Repositories;
+namespace Pathfinder2e.Infra.Data.Repositories;
 
 public class AncestryRepository
 {
